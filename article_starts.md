@@ -16,11 +16,7 @@ def compressImg(ImgName):
     im.save('f-' + ImgName, quality=50)
     return 'OK'
 ```
-
-  采用Image库中 covert方法直接转化图片的色彩属性
-然后用thumbnail方法裁剪图片大小
-最后储存
-
+  采用Image库中 covert方法直接转化图片的色彩属性，然后用thumbnail方法裁剪图片大小，最后储存
   可以看出这是一个比较简单的压缩转化过程，并未涉及到具体的原子层面的改造细节。
 > 知其然，而不知其所以然
 
